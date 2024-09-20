@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <h1>AILE SOY AGACIMI GORMEK ICIN LUTFEN UYE OLUNUZ!</h1>
+    <form action="/ikinci ders odev2/login.html">
+        <label for="isim">Adinizi Yaziniz:</label>
+        <input id="isim" placeholder="Adinizi yaziniz" type="text"><br>
+        
+        <br>
+
+        <label for="soyisim">Soyadinizi Yaziniz:</label>
+        <input id="soyisim" placeholder="Soyadinizi yaziniz" type="text" required>
+
+        <br><br>
+
+        <label for="mail">E-posta Adresinizi Yaziniz:</label>
+        <input id="mail" placeholder="E-posta Adresinizi Yaziniz:" type="email" required>
+        
+        <br><br>
+
+        <label for="sifre">Parolanizi Belirleyiniz:</label>
+        <input id="sifre" placeholder="Parola" type="password" required>
+        
+        <br><br>
+
+        <label for="sifre">Parolanizi Tekrar Yaziniz:</label>
+        <input id="sifre" placeholder="Parola" type="password" required>
+        
+
+        <br><br>
+
+        <label for="tarih">Dogum Tarihinizi Giriniz:</label>
+        <input id="tarih" placeholder="Dogum Tarihiniz" type="date">
+        
+        
+        <br><br>
+
+        <label>Cinsiyetiniz:</label>
+        <label for="erkek">Erkek</label>
+        <input id="erkek" type="radio" name="gender">
+        <label for="kadin">Kadin</label>
+        <input id="kadin" type="radio" name="gender">
+        <label for="belirtmek istemiyorum">Belirtmek İstemiyorum</label>
+        <input id="belirtmek istemiyorum" type="radio" name="gender">
+        
+
+        <br><br>
+
+        <label>Hobiler:</label>
+        <br>
+        <label for="spor">Spor</label>
+        <input type="checkbox" name="spor" value="yes">
+        <label for="müzik">Müzik</label>
+        <input type="checkbox" name="müzik" value="yes">
+        <label for="Seyahat">Seyahat</label>
+        <input type="checkbox" name="Seyahat" value="yes">
+        <label for="Kitap okuma">Kitap Okuma</label>
+        <input type="checkbox" name="kitap okuma" value="yes">
+        
+
+        <br><br>
+        
+
+        <label for="adres">Adresinizi Giriniz:</label>
+        <br>
+        <textarea rows="10" cols="50" name="adres" id="adres"></textarea>
+        
+        
+        <br><br>
+
+        <Label for="Turkiye">Ulke Seciniz:</Label>
+        <select name="Turkiye" id="Turkiye"></select>
+
+        <br><br>
+        
+        <button type="submit">Uye Ol</button>
+    </form>
+</body>
+</html>
